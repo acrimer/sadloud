@@ -6,6 +6,7 @@ var markdown = require('metalsmith-markdown');
 var layouts = require('metalsmith-layouts');
 var watch = require('metalsmith-watch');
 var paginate = require('metalsmith-paginate');
+var partial = require('metalsmith-partial');
 var sitemap = require('metalsmith-sitemap');
 var feed = require('metalsmith-feed');
 var drafts = require('metalsmith-drafts');
@@ -18,6 +19,11 @@ new Metalsmith(__dirname)
   .use(layouts('handlebars'))
   .use(drafts())
   .use(metadata())
+  .use(function(files, metalsmith, done){
+    metadata = metalsmith.metadata();
+    require('./lib/handlebars.js')();
+    done();
+  })
   .use(fileMetadata([
   	{
   		pattern: "posts/**/*.md",
@@ -48,6 +54,10 @@ new Metalsmith(__dirname)
     }
   }))
   .use(markdown())
+  .use(partial({
+    directory: './templates/partials',
+    engine: 'handlebars'
+  }))
   .use(templates({
   	engine: 'handlebars',
   	directory: 'templates'

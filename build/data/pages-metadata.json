@@ -1,0 +1,18 @@
+{
+	"defaults": {
+        "description": "Sad + Loud. A blog about independent rock, black metal, noise, emo, hardcore, and other music that is sad and/or loud.",
+        "keywords": "sad, loud, music blog, metal blog, black metal, american black metal, emo, metal, black metal blog, american black metal blog, noise music blog, hardcore music blog, screamo music blog, emo music blog, cool ass music blog, sad music blog, loud music blog, sad loud music blog, sad music reviews, loud music reviews, sad loud music, new sad music, new loud music, new sad loud music"
+    },
+	"home": {
+        "description": "Sad + Loud. A blog about independent rock, black metal, noise, emo, hardcore, and other music that is sad and/or loud.",
+        "keywords": "sad, loud, music blog, metal blog, black metal, american black metal, emo, metal, black metal blog, american black metal blog, noise music blog, hardcore music blog, screamo music blog, emo music blog, cool ass music blog, sad music blog, loud music blog, sad loud music blog, sad music reviews, loud music reviews, sad loud music, new sad music, new loud music, new sad loud music"
+    },
+    "reviews": {
+    	"description": "Reviews by Sad + Loud. Is it good? Is it sad? Is it loud?",
+    	"keywords": "sad, loud, music blog, metal blog, black metal, american black metal, emo, metal, black metal blog, american black metal blog, noise music blog, hardcore music blog, screamo music blog, emo music blog, cool ass music blog, sad music blog, loud music blog, sad loud music blog, sad music reviews, loud music reviews, sad loud music, new sad music, new loud music, new sad loud music"
+    },
+    "news": {
+    	"description": "News by Sad + Loud. What's going on in the world of sad, loud music?",
+    	"keywords": "sad, loud, music blog, metal blog, black metal, american black metal, emo, metal, black metal blog, american black metal blog, noise music blog, hardcore music blog, screamo music blog, emo music blog, cool ass music blog, sad music blog, loud music blog, sad loud music blog, sad music reviews, loud music reviews, sad loud music, new sad music, new loud music, new sad loud music"
+    }
+}
