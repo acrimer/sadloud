@@ -1,0 +1,229 @@
+@charset "UTF-8";
+/*
+    Eric Meyer Reset
+    ======================================================================
+    Reset all elements on the page without default padding/margins, etc.
+    http://meyerweb.com/eric/tools/css/reset/
+    v2.0 | 20110126
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+    Box Sizing Reset
+    ======================================================================
+    http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+    Apply a natural box layout model to all elements, but allowing
+    components to change if needed (use sparingly)
+*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*
+    Global
+    ======================================================================
+*/
+
+body {
+  background-color: #666;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Cinzel', serif;
+}
+
+p, ul, ol, li {
+  font-family: 'Cabin', sans-serif;
+}
+
+.container {
+  width: 100%;
+}
+
+.horizCenter {
+  width: 100%;
+  text-align: center;
+}
+
+/*
+    Header
+    ======================================================================
+*/
+
+header {
+  width: 100%;
+  text-align: center;
+}
+
+.headWrap {
+  padding-top: 40px;
+  width: 80%;
+  margin: 0px auto;
+  display: inline-block;
+  position: relative;
+}
+
+.headLeft {
+  width: 60%;
+  height: auto;
+  float: left;
+  display: inline-block;
+  text-align: left;
+}
+
+.headLeft h1 {
+  font-size: 5em;
+  color: #fff;
+  display: inline-block;
+}
+
+.headLeft #logoMoleRat {
+  width: auto;
+  position: relative;
+  bottom: -10px;
+  left: -10px;
+  display: inline-block;
+}
+
+.headLeft #logoMoleRat svg {
+  stroke: #fff;
+  fill: rgba(0,0,0,0);
+  height: 5em;
+}
+
+.headLeft:hover h1 {
+  color: #BD0000 !important;
+}
+
+.headLeft:hover svg {
+  stroke: #BD0000 !important;
+}
+
+.headRight {
+  width: 40%;
+  display: inline-block;
+  float: right;
+}
+
+.subheading {
+  text-align: right;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.headRight h2 {
+  font-size: 2em;
+  color: #fff;
+}
+
+/*
+    Nav
+    ======================================================================
+*/
+
+.nav {
+  width: 80%;
+  border: 1px solid #fff;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  background-color: #303030;
+}
+
+.navItems {
+  width: 100%;
+}
+
+.navSingle {
+  width: 24%;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+}
+
+.navSingle h2 {
+  font-size: 1.3em;
+}
+
+.navItems .navSingle:hover {
+  color: #BD0000;
+}
+
+.social {
+  width: 24%;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+}
+
+.socialIcon {
+  width: 49%;
+  text-align: center;
+  display: inline-block;
+}
+
+.socialIcon svg {
+  fill: #fff;
+  height: 1.3em;
+  width: auto;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.social .socialIcon:hover svg {
+  fill: #BD0000;
+}
